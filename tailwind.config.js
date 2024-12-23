@@ -8,7 +8,6 @@ export default {
     extend: {
       fontFamily:{
         SpaceGrotesk:["Space Grotesk", "serif"],
-        Anton:["Anton", "serif"]
       }
     },
   },

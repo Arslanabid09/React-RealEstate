@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBarsStaggered } from 'react-icons/fa6'; // Updated icon for cancel
 import { FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [toggle, setToggle] = useState(false);
@@ -10,10 +11,10 @@ const Header = () => {
             {/* Header Container */}
             <div className="flex justify-between items-center px-5">
                 {/* Logo Section */}
-                <div className="text-center tracking-wider">
-                    <h1 className="font-light text-5xl">Bond</h1>
-                    <span className="font-semibold">Retail Partner</span>
-                </div>
+                <Link to={'/'} className="text-center tracking-wider">
+                    <h1 className="font-light text-5xl">VIBE</h1>
+                    <span className="font-semibold">Housing Network</span>
+                </Link>
 
                 {/* Hamburger Menu for Small Screens */}
                 {!toggle ? (
@@ -25,10 +26,10 @@ const Header = () => {
 
                 {/* Navigation Menu for Large Screens */}
                 <ul className="hidden md:flex  gap-10 text-base font-">
-                    <li className="cursor-pointer hover:text-gray-500">Home</li>
-                    <li className="cursor-pointer hover:text-gray-500">Our Work</li>
-                    <li className="cursor-pointer hover:text-gray-500">Our Clients</li>
-                    <li className="cursor-pointer hover:text-gray-500">Contact Us</li>
+                    <li className="cursor-pointer hover:text-gray-500"><Link to={'/'}>Home</Link></li>
+                    <li className="cursor-pointer hover:text-gray-500"><Link to={''}>Our Work</Link></li>
+                    <li className="cursor-pointer hover:text-gray-500"><Link to={''}>Our Clients</Link></li>
+                    <li className="cursor-pointer hover:text-gray-500"><Link to={'/contact'}> Contact Us</Link></li>
                 </ul>
             </div>
 

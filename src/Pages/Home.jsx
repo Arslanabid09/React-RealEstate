@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <main className=' font-Anton'>
+    <main className=' font-SpaceGrotesk'>
       {/* section 1  */}
       <section className="flex flex-col gap-5 px-10   items-center justify-center min-h-screen">
   {/* Headline */}
@@ -11,9 +11,7 @@ const Home = () => {
   {/* Description */}
   {/* todo:will add the text mask animation in it */}
   <p className='w-full font-SpaceGrotesk md:w-[70%]  font-light text-lg  md:text-xl text-center  text-gray-500'>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit corrupti facere quo. 
-    Earum magnam eum exercitationem nihil officiis, aliquid, aliquam nobis beatae quis totam 
-    amet consequatur non quisquam iste.
+  Rental real estate and property management experts, connecting tenants with exceptional spaces, optimizing portfolios, and delivering tailored solutions for residential, commercial, and mixed-use developments – nationwide.
   </p>
 </section>
 {/* section 2 */}
