@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const Input = () => {
+export const Input = ({
+  className,
+  type,
+  placeholder
+}) => {
   return (
-    <input type="text" className='w-full font-SpaceGrotesk bg-red-400 h-12 placeholder:absolute placeholder:top-1 placeholder:left-8 outline-none border-b border-black placeholder:text-4xl placeholder:text-center ' placeholder='Name' />
+    <input type={type} className={`${className}  font-SpaceGrotesk border-b bg-transparent border-black placeholder:text-2xl text-2xl outline-none placeholder:text-black pt-8`} placeholder={placeholder} />
   )
 }

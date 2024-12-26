@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header,Footer} from '../Components/Index';
+import {Header,Footer} from '../Components';
 import { Outlet } from 'react-router-dom';
 
 const Layout = () => {

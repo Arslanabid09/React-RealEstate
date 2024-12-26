@@ -28,7 +28,7 @@ const Footer = () => {
         <hr className="border-gray-600" />
       </div>
       <h2 className="my-2 text-end px-7 text-gray-300 text-sm">
-        © 2024 Bond. All rights reserved
+        © 2024 Vibe. All rights reserved
       </h2>
     </footer>
   );

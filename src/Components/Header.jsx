@@ -27,7 +27,7 @@ const Header = () => {
                 {/* Navigation Menu for Large Screens */}
                 <ul className="hidden md:flex  gap-10 text-base font-">
                     <li className="cursor-pointer hover:text-gray-500"><Link to={'/'}>Home</Link></li>
-                    <li className="cursor-pointer hover:text-gray-500"><Link to={''}>Our Work</Link></li>
+                    <li className="cursor-pointer hover:text-gray-500"><Link to={'/our-work'}>Our Work</Link></li>
                     <li className="cursor-pointer hover:text-gray-500"><Link to={''}>Our Clients</Link></li>
                     <li className="cursor-pointer hover:text-gray-500"><Link to={'/contact'}> Contact Us</Link></li>
                 </ul>
